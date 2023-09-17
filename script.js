@@ -1,11 +1,5 @@
-const images = [
-    'imagen1.jpg',
-    'imagen2.jpg',
-    'imagen3.jpg',
-    // Agrega más nombres de archivo de tus imágenes aquí
-];
-
-const randomIndex = Math.floor(Math.random() * images.length);
-const randomImage = images[randomIndex];
+const totalImages = 86;
+const randomIndex = Math.floor(Math.random() * totalImages) + 1;
+const randomImage = `imagen${randomIndex}.jpg`;
 
 document.getElementById('random-image').src = randomImage;
