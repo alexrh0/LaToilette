@@ -100,8 +100,3 @@ const randomText = totalTexts[randomIndexText];
 // Configura la imagen y el texto
 document.getElementById('random-image').src = randomImage;
 document.getElementById('random-text').textContent = randomText;
-
-// Estiliza el párrafo con la tipografía y el color
-document.getElementById('random-text').style.fontFamily = 'Univers';
-document.getElementById('random-text').style.fontSize = '30px';
-document.getElementById('random-text').style.color = 'blue';
