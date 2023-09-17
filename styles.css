@@ -1,0 +1,23 @@
+/* Estilos para el contenedor de imagen y texto */
+.image-text-container {
+    position: relative;
+    text-align: center;
+}
+
+/* Estilos para la imagen */
+#random-image {
+    width: 100%; /* Ajusta el ancho de la imagen según tus necesidades */
+}
+
+/* Estilos para el texto */
+#random-text {
+    position: absolute;
+    top: 50%; /* Centra verticalmente el texto en el contenedor */
+    left: 50%; /* Centra horizontalmente el texto en el contenedor */
+    transform: translate(-50%, -50%); /* Centra completamente el texto */
+    font-family: Univers;
+    font-size: 30px;
+    color: blue;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente para el texto */
+    padding: 10px; /* Espaciado alrededor del texto */
+}
