@@ -85,13 +85,12 @@ const totalTexts = [
     "Mucho más allá de la forma estética, estos objetos adoptan las formas de juego aleatorio y de vértigo a que aludía Caillois y que se oponían a los juegos de representación, miméticos y estéticos.",
     "Ilustran así nuestro tipo de sociedad, que es una sociedad de paroxismo y exorcismo, es decir, una sociedad en la que hemos absorbido hasta el vértigo nuestra propia realidad, nuestra propia identidad, y procuramos rechazarla con la misma fuerza, una sociedad donde la realidad entera ha absorbido hasta el vértigo a su propio doble y quiere expulsarlo cualesquiera que sean sus formas.",
     "Esos objetos triviales, esos objetos técnicos, esos objetos virtuales, serían, pues, los nuevos atractores extraños, los nuevos objetos más allá de lo estético, trans estéticos, objetos-fetiche carentes de significación, de ilusión, sin aura, sin valor, y que serían el espejo de nuestra desilusión radical del mundo.",
-    "Objetos irónicamente puros, tal como son las imágenes de Warhol."
-    
+    "Objetos irónicamente puros, tal como son las imágenes de Warhol.",
 ];
 
 // Selecciona una imagen aleatoria
-const randomIndexImage = Math.floor(Math.random() * totalImages) + 1;
-const randomImage = `imagen${randomIndexImage}.jpg`;
+const randomIndexImage = Math.floor(Math.random() * totalTexts.length);
+const randomImage = `imagen${randomIndexImage}.jpeg`;
 
 // Selecciona una frase aleatoria
 const randomIndexText = Math.floor(Math.random() * totalTexts.length);
